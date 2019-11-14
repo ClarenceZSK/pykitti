@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 
 import pykitti
 
-__author__ = "Lee Clement"
-__email__ = "lee.clement@robotics.utias.utoronto.ca"
+__author__ = "Clarence"
+__email__ = "szhangk@hust.edu.cn"
 
 # Change this to the directory where you store KITTI data
-basedir = '/Users/leeclement/Desktop/KITTI/raw'
+basedir = '/Users/Clarence/Dropbox/Weis_group/KITTI/raw'
 
 # Specify the dataset to load
-date = '2011_09_30'
-drive = '0034'
+date = '2011_09_26'
+drive = '0001'
 
 # Load the data. Optionally, specify the frame range to load.
 dataset = pykitti.raw(basedir, date, drive,

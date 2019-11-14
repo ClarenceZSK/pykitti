@@ -6,8 +6,8 @@ from mpl_toolkits.mplot3d import Axes3D
 
 import pykitti
 
-__author__ = "Lee Clement"
-__email__ = "lee.clement@robotics.utias.utoronto.ca"
+__author__ = "Clarence"
+__email__ = "szhangk@hust.edu.cn"
 
 # Change this to the directory where you store KITTI data
 basedir = '/Users/leeclement/Desktop/KITTI/odometry/dataset'
